@@ -187,7 +187,7 @@ public class FrmRegiDocente extends JFrame implements ActionListener {
 	protected void do_btnClean_actionPerformed(ActionEvent e) {
 		txtNombres.setText("");
 		txtApellidos.setText("");
-		txtDni.setText(getName());
+		txtDni.setText("");
 		txtFNaci.setText("");
 		txtFIngre.setText("");
 		txtEstado.setText("");
