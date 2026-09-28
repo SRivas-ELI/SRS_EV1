@@ -174,7 +174,7 @@ public class FrmRegiDocente extends JFrame implements ActionListener {
 		objdocente.setDni(vDni);
 		objdocente.setEstado(vEst);
 		objdocente.setFechaIngreso(vFI);
-		objdocente.setFechaIngreso(vFN);
+		objdocente.setFechaNacimiento(vFN);
 		objdocente.setDireccion(vDir);
 		
 		DocenteModel objDocModel = new DocenteModel();
