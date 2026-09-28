@@ -19,7 +19,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class FrmRegDocente extends JFrame implements ActionListener {
+public class FrmRegiDocente extends JFrame implements ActionListener {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -40,7 +40,7 @@ public class FrmRegDocente extends JFrame implements ActionListener {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					FrmRegDocente frame = new FrmRegDocente();
+					FrmRegiDocente frame = new FrmRegiDocente();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -52,7 +52,7 @@ public class FrmRegDocente extends JFrame implements ActionListener {
 	/**
 	 * Create the frame.
 	 */
-	public FrmRegDocente() {
+	public FrmRegiDocente() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
